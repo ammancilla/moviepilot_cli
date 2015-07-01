@@ -1,6 +1,7 @@
 # 
 # Moviepilot CLI commands
 # 
+# Encoding: utf-8
 
 require 'commander'
 require 'terminal-table'
