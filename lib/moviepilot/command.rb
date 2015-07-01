@@ -1,7 +1,8 @@
+# encoding: utf-8
+
 # 
 # Moviepilot CLI commands
 # 
-# Encoding: utf-8
 
 require 'commander'
 require 'terminal-table'
@@ -41,7 +42,7 @@ module Moviepilot
 
       command :post do |c|
         c.syntax = 'moviepilot posts <id>'
-        c.description = 'Display an specific post.'
+        c.description = 'Display a specific post.'
         c.action do |args, options|
           begin
             post = Client.post args[0]
